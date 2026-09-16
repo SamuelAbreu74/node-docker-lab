@@ -1,6 +1,6 @@
 # Mini API Node.js com Docker
 
-Projeto prático de conteinerização com Docker de uma API Node.js/Express. Desenvolvido para consolidação de conhecimentos durante o programa Geração Tech no curso de Engenharia de Software da FullCycle.
+Projeto prático de conteinerização com Docker de uma API Node.js/Express. Desenvolvido para consolidação de conhecimentos durante o programa Geração Tech no curso de Engenharia de Software FullCycle.
 
 ## Como rodar o projeto e o que aprendemos com cada comando
 
@@ -40,5 +40,5 @@ http://localhost:3000
 * Ao acessar o `localhost` na porta `3000`, a requisição bate no seu computador, passa pela "ponte" criada pelo comando de portas (`-p`) e chega até a nossa API Node.js rodando lá dentro do container Docker, devolvendo a mensagem de sucesso!
 
 
-### Aprendizado adquirido ?
+### Qual foi o aprendizado adquirido ?
 * Ao utilizar o Docker no desenvolvimento da nossa API,  tornamos possível que qualquer pessoa rode o projeto localmente sem a necessidade de ter o ambiente e as dependências (como Node.js e npm) instalados em sua própria máquina. Isso resolve de vez o famoso problema do "na minha máquina funciona", pois o container garante que a aplicação rodará em um ambiente idêntico para todos.
